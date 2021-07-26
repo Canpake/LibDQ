@@ -6,7 +6,7 @@
  *       this instead: $lib = _MD('lib_dq'); 
  */
 require_once('lib_dq.class.php');
-$lib = new Lib_DQ();
+$lib = Lib_DQ::getInstance();
 
 // You can now call all LibDQ functions as usual. 
 // You can find documentation for the functions implemented here: 

@@ -25,13 +25,13 @@ class Lib_DQ {
      *  - gen_term          (properly formats a term, given as a coefficient and variable)
      *  - gen_frac          (properly formats a fraction, given numerator and denominator)
      */
-
-    // // Singleton pattern
-    // protected function __construct() {}     // private constructor to prevent direct construction calls with `new`
-    // protected function __clone() {}         // should not be cloneable
-    // public function __wakeup() {            // should not be restorable from strings
-    //     throw new Exception("Cannot unserialize a singleton.");
-    // }
+    
+    // Singleton pattern
+    protected function __construct() {}     // private constructor to prevent direct construction calls with `new`
+    protected function __clone() {}         // should not be cloneable
+    public function __wakeup() {            // should not be restorable from strings
+        throw new Exception("Cannot unserialize a singleton.");
+    }
 
     protected static $instance = null;
 
