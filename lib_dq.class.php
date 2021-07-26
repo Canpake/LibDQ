@@ -6,9 +6,6 @@
  *
  */
 
-// require_once __DIR__ . '/vendor/autoload.php';
-// use MathPHP\Algebra;
-
 class Lib_DQ {
     /*
      * This class holds a number of functions for writing dynamic questions. Currently, the following functions exist:
@@ -48,10 +45,7 @@ class Lib_DQ {
 
     // Test function to check if operational
     public static function ping() {
-        echo "DQ Library is loaded!";
-
-        // $test = Algebra::gcd(8, 12);
-        // echo "The GCD of 8 and 12 is $test.";
+        echo "DQ Library is loaded!\n";
     }
 
     /* --- Arithmetic Functions --- */
